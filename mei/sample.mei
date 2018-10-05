@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.music-encoding.org/ns/mei"
+    meiversion="3.0.0">
+    <meiHead>
+        <workDesc>
+            <work>
+                <titleStmt>
+                    <title>My first MEI notes</title>
+                </titleStmt>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major">
+                        <pgHead>
+                            <anchoredText>
+                                <rend fontsize="12" valign="top" halign="right">1</rend>
+                            </anchoredText>
+                            <anchoredText>
+                                <rend fontsize="24" halign="center" valign="top">Mozart: Das Veilchen, K.
+                                    476</rend>
+                            </anchoredText>
+                            <anchoredText>
+                                <rend fontsize="14" halign="center" valign="top">Mozart<lb/>Das
+                                    Veilchen<lb/>K. 476<lb/>(Goethe)</rend>
+                            </anchoredText>
+                        </pgHead>
+                        <staffGrp barthru="false">
+                            <staffDef n="1" xml:id="P1" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
+                                key.mode="major"/>
+                            <staffGrp xml:id="P2" barthru="true" symbol="brace" label="Pianoforte">
+                                <staffDef n="2" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
+                                    key.mode="major" xml:id="P2-I3"/>
+                                <staffDef n="3" lines="5" clef.line="4" clef.shape="F" key.sig="1s"
+                                    key.mode="major" xml:id="P3-I3"/>
+                            </staffGrp>
+                        </staffGrp>
+                    </scoreDef>
+                    <section>
+                        <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major">
+                            <staffGrp>
+                                <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
+                                    key.mode="major"/>
+                            </staffGrp>
+                        </scoreDef>
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                    <rest dur="4"/>
+                                    <rest dur="8"/>
+                                    <note pname="g" oct="4" dur="8" stem.dir="up">
+                                        <verse n="1">
+                                            <syl>Ein</syl>
+                                        </verse>
+                                    </note>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer n="1">
+                                    <beam>
+                                        <note pname="d" oct="5" dur="8" stem.dir="down">
+                                            <verse n="1">
+                                                <syl wordpos="i" con="d">Veil</syl>
+                                            </verse>
+                                        </note>
+                                        <note pname="b" oct="4" dur="8" stem.dir="down">
+                                            <verse n="1">
+                                                <syl wordpos="t">chen</syl>
+                                            </verse>
+                                        </note>
+                                        <note pname="c" oct="5" dur="8" stem.dir="down">
+                                            <verse n="1">
+                                                <syl>auf</syl>
+                                            </verse>
+                                        </note>
+                                        <note pname="e" oct="5" dur="8" stem.dir="down">
+                                            <verse n="1">
+                                                <syl>der</syl>
+                                            </verse>
+                                        </note>
+                                    </beam>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="3">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note grace="acc" pname="e" oct="5" dur="8" stem.dir="up"/>
+                                    <beam>
+                                        <note pname="d" oct="5" dur="8" dots="1" stem.dir="down">
+                                            <verse n="1">
+                                                <syl wordpos="i" con="d">Wie</syl>
+                                            </verse>
+                                        </note>
+                                        <note pname="c" oct="5" dur="16" stem.dir="down">
+                                            <verse n="1">
+                                                <syl wordpos="t">se</syl>
+                                            </verse>
+                                        </note>
+                                    </beam>
+                                    <note pname="b" oct="4" dur="8" stem.dir="down">
+                                        <verse n="1">
+                                            <syl>stand,</syl>
+                                        </verse>
+                                    </note>
+                                    <rest dur="8"/>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
+</mei>
