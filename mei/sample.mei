@@ -34,7 +34,7 @@
                         </staffGrp>
                     </scoreDef>
                     <section>
-                        <scoreDef meter.count="4" meter.unit="4" key.sig="1s" key.mode="major">
+                        <scoreDef meter.count="2" meter.unit="4" key.sig="1s" key.mode="major">
                             <staffGrp>
                                 <staffDef n="1" lines="5" clef.line="2" clef.shape="G" key.sig="1s"
                                     key.mode="major"/>
@@ -57,7 +57,7 @@
                             <staff n="1">
                                 <layer n="1">
                                     <beam>
-                                        <note pname="d" oct="4" dur="8" stem.dir="down">
+                                        <note pname="d" oct="5" dur="8" stem.dir="down">
                                             <verse n="1">
                                                 <syl wordpos="i" con="d">Veil</syl>
                                             </verse>
@@ -67,7 +67,7 @@
                                                 <syl wordpos="t">chen</syl>
                                             </verse>
                                         </note>
-                                        <note pname="c" oct="5" dur="2" stem.dir="down">
+                                        <note pname="c" oct="5" dur="8" stem.dir="down">
                                             <verse n="1">
                                                 <syl>auf</syl>
                                             </verse>
